@@ -1,4 +1,4 @@
-package med.voll.api.infra;
+package med.voll.api.infra.exception;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EntityNotFoundException;
@@ -27,7 +27,6 @@ public class TratadorDeErros {
         public DadosErrosValidacao(FieldError erro) {
             this(erro.getField(), erro.getDefaultMessage());
         }
-
     }
 
 }
