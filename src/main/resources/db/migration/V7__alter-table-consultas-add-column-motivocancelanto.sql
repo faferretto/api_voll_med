@@ -1,0 +1,1 @@
+alter table consultas add motivocancelamento varchar(255);

@@ -1,0 +1,1 @@
+alter table consultas rename column motivocancelamento to motivo_cancelamento;
